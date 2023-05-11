@@ -1,0 +1,44 @@
+body{
+    padding:10px;
+    margin:10px;
+}
+div{
+    background-color:blanchedalmond ;
+    margin:5px;
+    padding:auto;
+}
+
+ 
+@media(min-width:992px)
+{
+.box1,.box2,.box3{
+   float:left;
+    width:30%;
+    padding:auto;
+    border-color: darkcyan;
+    background-color: blanchedalmond;
+    margin:5px;
+}
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .box1,.box2,.box3{
+        float:left;
+        width:45%;
+        padding:auto;
+        border-color: darkcyan;
+        background-color: blanchedalmond;
+        margin:5px;
+    }
+}
+@media(max-width:767px)
+{
+.box1,.box2,.box3{
+   float:left;
+    width:100%;
+    padding:auto;
+    border-color: darkcyan;
+    background-color: blanchedalmond;
+    margin:5px;
+}
+}
